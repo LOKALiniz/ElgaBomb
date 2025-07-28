@@ -20,12 +20,13 @@ while 1:
     | |__    | |   __ _   ___  _ |(_) ) ___  _ _   _ _ |(_) )
     |  __|   | |  / _` | / _ \| ||___/ /   \| '_\_/_' ||___/ 
     | |____  | | | (_| || (_) | || _ \  (_) | | | | | || _ \
-    
+\                                         
     |______| |_|  \__, | \___/|_||(_) )\___/|_| |_| |_||(_) )
                    __/ |         |___/                 |___/  
                   |____/    
     
-    Sms: {}           {}by {}@tingirifistik\n  
+    Sms: {}           {}by {}@tingirifistik\n 
+    elgamexbirmarkadırsidrayarramdır
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Turbo)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
