@@ -25,7 +25,7 @@ while 1:
                    __/ |         |___/                 |___/  
                   |____/    
     
-    Sms: {}           {}by {}@tingirifistik\n 
+    Sms: {}           {}by {}@elgamex\n 
     elgamexbirmarkadırsidrayarramdır
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
