@@ -20,7 +20,7 @@ import os
 os.system("cls" if os.name == "nt" else "clear")
 while 1:
     system("cls")
-    print("""{}
+    print(r"""{}
      ______   _                   ___                   ___ 
     | _____ _     _____ ____    ____  ____  _      ____ 
 /  __// \   /  __//  _ \  /  __\/  _ \/ \__/|/  __\
@@ -36,15 +36,13 @@ while 1:
     try:
         menu_text = Fore.LIGHTMAGENTA_EX + Style.BRIGHT + """
 ╔═════════════════════════════╗
-║           🔥 ELGA BOMB 🔥          ║
+║           🔥 ELGA BOMB 🔥        ║
 ╠═════════════════════════════╣
 ║ 1 - Normal Mod                   ║
 ║ 2 - Turbo Mod                    ║
 ║ 3 - Çıkış Yap                    ║
 ╚═════════════════════════════╝
 """ + Fore.LIGHTYELLOW_EX + "\nSeçim: "
-
-menu = input(menu_text)
 
 menu = input(menu_text)
 " + Fore.LIGHTYELLOW_EX + " Seçim: "))
