@@ -35,15 +35,17 @@ while 1:
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.LIGHTMAGENTA_EX + " menu = input(
-    Fore.LIGHTMAGENTA_EX + Style.BRIGHT + """
+    Foremenu_text = Fore.LIGHTMAGENTA_EX + Style.BRIGHT + """
 ╔═════════════════════════════╗
-║            🔥 ELGA BOMB 🔥       ║
+║           🔥 ELGA BOMB 🔥          ║
 ╠═════════════════════════════╣
 ║ 1 - Normal Mod                   ║
 ║ 2 - Turbo Mod                    ║
 ║ 3 - Çıkış Yap                    ║
 ╚═════════════════════════════╝
- """ + Fore.LIGHTYELLOW_EX
+""" + Fore.LIGHTYELLOW_EX + "\nSeçim: "
+
+menu = input(menu_text)
 )" + Fore.LIGHTYELLOW_EX + " Seçim: "))
         if menu == "":
             continue
