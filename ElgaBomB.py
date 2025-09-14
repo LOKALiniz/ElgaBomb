@@ -11,41 +11,56 @@ for attribute in dir(SendSms):
         if attribute.startswith('__') == False:
             servisler_sms.append(attribute)
 
-            
+print("ELGABOMB Açılıyor🔥🔥🔥...") 
+for i in range(3, 0, -1):
+    print(f"{i} saniye...")
+    time.sleep(1)
+import os
+
+os.system("cls" if os.name == "nt" else "clear")
 while 1:
     system("cls||clear")
     print("""{}
      ______   _                   ___                   ___ 
-    |  ____| | |                 | _ \                 | _ \ 
-    | |__    | |   __ _   ___  _ |(_) ) ___  _ _   _ _ |(_) )
-    |  __|   | |  / _` | / _ \| ||___/ /   \| '_\_/_' ||___/ 
-    | |____  | | | (_| || (_) | || _ \  (_) | | | | | || _ \
-\                                         
-    |______| |_|  \__, | \___/|_||(_) )\___/|_| |_| |_||(_) )
-                   __/ |         |___/                 |___/  
-                  |____/    
+    | _____ _     _____ ____    ____  ____  _      ____ 
+/  __// \   /  __//  _ \  /  __\/  _ \/ \__/|/  __\
+|  \  | |   | |  _| / \|  | | //| / \|| |\/||| | //
+|  /_ | |_/\| |_//| |-||  | |_\\| \_/|| |  ||| |_\\
+\____\\____/\____\\_/ \|  \____/\____/\_/  \|\____/
+                                                   
     
     Sms: {}           {}by {}@elgamex\n 
+    {}İnsta:@elgamex__
     SUÇ KULLANAN KİŞİYE AİTTİR
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
-        menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Turbo)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
+        menu = (input(Fore.LIGHTMAGENTA_EX + " menu = input(
+    Fore.LIGHTMAGENTA_EX + Style.BRIGHT + """
+╔═════════════════════════════╗
+║            🔥 ELGA BOMB 🔥       ║
+╠═════════════════════════════╣
+║ 1 - Normal Mod                   ║
+║ 2 - Turbo Mod                    ║
+║ 3 - Çıkış Yap                    ║
+╚═════════════════════════════╝
+ """ + Fore.LIGHTYELLOW_EX
+)" + Fore.LIGHTYELLOW_EX + " Seçim: "))
         if menu == "":
             continue
         menu = int(menu) 
     except ValueError:
         system("cls||clear")
-        print(Fore.LIGHTRED_EX + "Hatalı giriş yaptın. Tekrar deneyiniz.")
+        print(Fore.LIGHTRED_EX + "Hatalı giriş yaptın. Tekrar dene.")
         sleep(3)
         continue
     if menu == 1:
         system("cls||clear")
-        print(Fore.LIGHTYELLOW_EX + "Telefon numarasını başında '+90' olmadan yazınız (Birden çoksa 'enter' tuşuna basınız): "+ Fore.LIGHTGREEN_EX, end="")
+        print(Fore.LIGHTYELLOW_EX + "Telefon numarasını başında '0' olmadan yaz (Birden çoksa 'enter' tuşuna bas): "+ Fore.LIGHTGREEN_EX, end="")
         tel_no = input()
         tel_liste = []
         if tel_no == "":
             system("cls||clear")
-            print(Fore.LIGHTYELLOW_EX + "Telefon numaralarının kayıtlı olduğu dosyanın dizinini yazınız: "+ Fore.LIGHTGREEN_EX, end="")
+            print(Fore.LIGHTYELLOW_EX + "Telefon numaralarının kayıtlı olduğu dosyanın dizinini yaz: "+ Fore.LIGHTGREEN_EX, end="")
             dizin = input()
             try:
                 with open(dizin, "r", encoding="utf-8") as f:
@@ -55,7 +70,7 @@ while 1:
                 sonsuz = ""
             except FileNotFoundError:
                 system("cls||clear")
-                print(Fore.LIGHTRED_EX + "Hatalı dosya dizini. Tekrar deneyiniz.")
+                print(Fore.LIGHTRED_EX + "Hatalı dosya dizini. Tekrar dene.")
                 sleep(3)
                 continue
         else:
@@ -64,21 +79,21 @@ while 1:
                 if len(tel_no) != 10:
                     raise ValueError
                 tel_liste.append(tel_no)
-                sonsuz = "(Sonsuz ise 'enter' tuşuna basınız)"  
+                sonsuz = "(Sonsuz ise 'enter' tuşuna bas)"  
             except ValueError:
                 system("cls||clear")
-                print(Fore.LIGHTRED_EX + "Hatalı telefon numarası. Tekrar deneyiniz.") 
+                print(Fore.LIGHTRED_EX + "Hatalı telefon numarası. Tekrar dene.") 
                 sleep(3)
                 continue
         system("cls||clear")
         try:
-            print(Fore.LIGHTYELLOW_EX + "Mail adresi (Bilmiyorsanız 'enter' tuşuna basın): "+ Fore.LIGHTGREEN_EX, end="")
+            print(Fore.LIGHTYELLOW_EX + "Mail adresi (Bilmiyorsanız 'enter' tuşuna bas): "+ Fore.LIGHTGREEN_EX, end="")
             mail = input()
             if ("@" not in mail or ".com" not in mail) and mail != "":
                 raise
         except:
             system("cls||clear")
-            print(Fore.LIGHTRED_EX + "Hatalı mail adresi. Tekrar deneyiniz.") 
+            print(Fore.LIGHTRED_EX + "Hatalı mail adresi. Tekrar dene.") 
             sleep(3)
             continue
         system("cls||clear")
@@ -91,7 +106,7 @@ while 1:
                 kere = None
         except ValueError:
             system("cls||clear")
-            print(Fore.LIGHTRED_EX + "Hatalı giriş yaptın. Tekrar deneyiniz.") 
+            print(Fore.LIGHTRED_EX + "Hatalı giriş yaptın. Tekrar dene.") 
             sleep(3)
             continue
         system("cls||clear")
@@ -100,7 +115,7 @@ while 1:
             aralik = int(input())
         except ValueError:
             system("cls||clear")
-            print(Fore.LIGHTRED_EX + "Hatalı giriş yaptın. Tekrar deneyiniz.") 
+            print(Fore.LIGHTRED_EX + "Hatalı giriş yaptın. Tekrar dene.") 
             sleep(3)
             continue
         system("cls||clear")
