@@ -1,4 +1,4 @@
-from colorama import Fore, Style
+⁸from colorama import Fore, Style
 from time import sleep
 from os import system
 from sms import SendSms
@@ -47,7 +47,7 @@ while 1:
 menu = input(menu_text)
 
 menu = input(menu_text)
-)" + Fore.LIGHTYELLOW_EX + " Seçim: "))
+" + Fore.LIGHTYELLOW_EX + " Seçim: "))
         if menu == "":
             continue
         menu = int(menu) 
