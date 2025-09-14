@@ -35,8 +35,9 @@ while 1:
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu_text = Fore.LIGHTMAGENTA_EX + Style.BRIGHT + """
+╔══════menu_text = Fore.LIGHTMAGENTA_EX + Style.BRIGHT + """
 ╔═════════════════════════════╗
-║           🔥 ELGA BOMB 🔥        ║
+║           🔥 ELGA BOMB 🔥          ║
 ╠═════════════════════════════╣
 ║ 1 - Normal Mod                   ║
 ║ 2 - Turbo Mod                    ║
