@@ -33,7 +33,6 @@ while True:
 \____\\____/\____\\_/ \|  \____/\____/\_/  \|\____/
 
     Sms: {}           {}by {}@elgamex
-    {}İnsta:@elgamex__
     SUÇ KULLANAN KİŞİYE AİTTİR
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
 
